@@ -1,2 +1,2 @@
 # HTML-CSS
-This is where I
+This is where I'm learning HTML / CSS!
