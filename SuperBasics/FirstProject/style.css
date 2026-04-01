@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(to right, #94bbcd, #8acbeb);
+    font-family: Cascadia Code;
+    color: snow;
+    text-align: center;
+}
+.LoginPage {
+    background: linear-gradient(to right, #89CFF0, #3bb8fb);
+    text-align: center;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 100px;
+    border: 1px solid white;
+}
+
+input {
+    text-align: center;
+    font-size: xx-small;
+    display: block;
+    margin: 0px auto;
+    color: black;
+    background-color: #89CFF0;
+    border-width: 0px;
+    border-color: white;
+    
+}
+.u {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 3px;
+    padding: 5px;
+}
+.p {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 3px;
+    padding: 5px;
+}
+
+.noaccount {
+    font-size: x-small;
+}
+
+a {
+    font-size: xx-small;
+    text-decoration: none;
+    color: white;
+}
+
+.noaccount {
+    margin-top: 5px;
+}
+
+.google, .microsoft {
+    background-color: #89CFF0;
+    border-radius: 50px;
+}
+
+.google, .microsoft {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;  /* centers logo + text horizontally */
+    gap: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    width: 150px;            /* fixed width for both buttons */
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #89CFF0;
+    color: white;
+    cursor: pointer;
+}
+
+.google h6, .microsoft h6 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.google img, .microsoft img {
+    display: inline-block;
+    vertical-align: middle;
+}
