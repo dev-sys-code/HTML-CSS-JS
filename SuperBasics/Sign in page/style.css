@@ -1,41 +1,53 @@
 body {
-    background: linear-gradient(to right, #94bbcd, #8acbeb);
+    background-image: url("https://wallpapercave.com/wp/ixmt8JQ.jpg");
     font-family: Cascadia Code;
     color: snow;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    max-width: 1920;
 }
 .LoginPage {
-    background: linear-gradient(to right, #89CFF0, #3bb8fb);
+    background-color: rgb(175, 175, 175, 0.2);
+    backdrop-filter: blur(8px);
     text-align: center;
-    padding: 15px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    margin: 100px;
-    border: 1px solid white;
+    padding: 5vh;
+    border-top-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    border-top-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 50px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 
 input {
-    text-align: center;
+    border-radius: 1vh;
     font-size: xx-small;
     display: block;
-    margin: 0px auto;
+    margin: 1.5vh auto;
     color: black;
-    background-color: #89CFF0;
-    border-width: 0px;
+    background-color: rgb(175, 175, 175, 0.5);
+    border-width: 0vh;
+    border-color: rgb(255, 255, 255);
+    padding: 1.5vh;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.login-btn {
+    background-color: rgb(175, 175, 175, 0.5);;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    border-radius: 1vh;
+    padding: 1.5vh 4vh;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-width: 0.1vh;
     border-color: white;
-    
-}
-.u {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 3px;
-    padding: 5px;
-}
-.p {
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 3px;
-    padding: 5px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 
 .noaccount {
@@ -49,32 +61,35 @@ a {
 }
 
 .noaccount {
-    margin-top: 5px;
+    margin-top: 1vh;
 }
 
 .google, .microsoft {
     background-color: #89CFF0;
-    border-radius: 50px;
+    border-radius: 10vh;
 }
 
 .google, .microsoft {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    gap: 5px;
-    padding: 5px 10px;
-    margin: 5px;
-    width: 150px;
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: #89CFF0;
+    justify-content: center; 
+    gap: 1vh;
+    width: 20vh;          
+    padding: 1.5vh 4vh;
+    margin: 1vh;
+    border: 0.1vh solid white;
+    border-radius: 5vh;
+    background-color: rgba(175, 175, 175, 0.2);
     color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     cursor: pointer;
 }
 
 .google h6, .microsoft h6 {
     margin: 0;
-    font-size: 10px;
+    font-size: 1.2vh;
 }
 
 .google img, .microsoft img {
