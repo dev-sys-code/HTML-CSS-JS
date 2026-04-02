@@ -1,0 +1,9 @@
+body {
+    font-family: Cascadia Code;
+    font-style: italic;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
