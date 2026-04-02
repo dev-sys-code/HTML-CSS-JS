@@ -1,2 +1,6 @@
-# HTML-CSS
-This is where I'm learning HTML / CSS!
+# HTML / CSS / JS Projects
+
+This repo contains my web development practise projects
+
+## Projects
+- Sign in page
