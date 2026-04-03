@@ -36,6 +36,7 @@ input {
     border-color: rgb(255, 255, 255);
     padding: 1.5vh;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    width: 150px;
 }
 .login-btn {
     background-color: rgb(175, 175, 175, 0.5);;
@@ -48,8 +49,12 @@ input {
     border-width: 0.1vh;
     border-color: white;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    width: 80px;
+    transition: all 0.2s ease;
 }
-
+.login-btn:hover {
+    transform: scale(1.05);
+}
 .noaccount {
     font-size: x-small;
 }
