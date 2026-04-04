@@ -1,0 +1,81 @@
+body {
+    background-image: url("https://image.fonwall.ru/o/fn/artstation-waves-background-futuristic.jpeg?auto=compress&fit=crop&w=1920&h=1080&domain=img3.fonwall.ru");
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    border-radius: 25px;
+    width: 540px;
+    height: auto;
+    box-shadow: 0 3px 50px white;
+}
+
+.profile {
+    border-radius: 50%;
+    border: white 1px solid;
+    transition: all 3s ease;
+}
+
+.profile:hover {
+    border-radius: 25%;
+    transform: scale(1.15);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 540px;
+    text-align: center;
+}
+
+.indbtn {
+    margin: 15px;
+    background-color: rgb(255, 36, 36);
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+    transition: all 0.3s ease;
+}
+
+.indbtn:hover {
+    transform: scale(1.05);
+}
+
+.video-one, .video-two, .video-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 5px solid rgb(255, 36, 36);
+    border-radius: 15px;
+    width: 250px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.video-one:hover, .video-two:hover, .video-three:hover {
+    transform: scale(1.05);
+}
+
+.videos {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;   
+}
+
+.interactives {
+    display: flex;
+    gap: 15px   ;
+}
