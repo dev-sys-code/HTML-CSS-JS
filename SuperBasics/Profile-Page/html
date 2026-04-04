@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Profile Page</title>
+    </head>
+    <body>
+        <div class="main-box">
+            <div class="profile-picture">
+                <img class="profile" src="https://avatars.githubusercontent.com/u/142793020?v=4" height="100" width="100">
+            </div>
+            <h4>@dev.sys</h4>
+            <div class="interactives">
+                <h5>Following: <strong>2327</strong></h5>
+                <h5>Followers <strong>10.7k</strong></h5>
+                <h5>Likes: <strong>1799</strong></h5>
+            </div>
+            <div class="buttons">
+                <a class="indbtn"href="#">Follow</a>
+                <a class="indbtn"href="#">Message</a>
+                <a class="indbtn"href="#">Share</a>
+            </div>
+            <div class="videos">
+                <div class="video-one">
+                    <h6>Video One</h6>
+                </div>
+                <div class="video-two">
+                    <h6>Video Two</h6>
+                </div>
+                <div class="video-three">
+                    <h6>Video Three</h6>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
