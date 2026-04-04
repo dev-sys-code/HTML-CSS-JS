@@ -1,103 +1,74 @@
-body {
-    background-image: url("https://wallpapercave.com/wp/ixmt8JQ.jpg");
-    font-family: Cascadia Code;
-    color: snow;
-    text-align: center;
+/* Wavy background btw */
+ body {
+    background-image: url("https://images.wallpaperscraft.com/image/single/waves_shapes_gradient_206702_1920x1080.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+ }
+
+ .main-box {
+    display: block;
+    margin: 200px auto;
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 5px 20px;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+    transition: all 0.5s ease;
+ }
+
+ .main-box:hover {
+    transform: scale(1.03);
+ }
+
+ .input-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .input {
+    display: block;
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+ }
+
+ .input:hover {
+    transform: scale(1.03);
+ }
+
+ .login-btn {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    max-width: 1920;
-}
-.LoginPage {
-    background-color: rgb(175, 175, 175, 0.2);
-    backdrop-filter: blur(8px);
-    text-align: center;
-    padding: 5vh;
-    border-top-left-radius: 5vh;
-    border-bottom-right-radius: 5vh;
-    border-top-right-radius: 5vh;
-    border-bottom-left-radius: 5vh;
-    max-width: 200px;
-    min-width: 200px;
-    min-height: 50px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-}
-
-input {
-    border-radius: 1vh;
-    font-size: xx-small;
-    display: block;
-    margin: 1.5vh auto;
-    color: black;
-    background-color: rgb(175, 175, 175, 0.5);
-    border-width: 0vh;
-    border-color: rgb(255, 255, 255);
-    padding: 1.5vh;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 25px;
     width: 150px;
-}
-.login-btn {
-    background-color: rgb(175, 175, 175, 0.5);;
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    border-radius: 1vh;
-    padding: 1.5vh 4vh;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    border-width: 0.1vh;
-    border-color: white;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-    width: 80px;
-    transition: all 0.2s ease;
-}
-.login-btn:hover {
-    transform: scale(1.05);
-}
-.noaccount {
-    font-size: x-small;
-}
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.5) ;
+    transition: all 0.3s ease;
 
-a {
-    font-size: xx-small;
-    text-decoration: none;
-    color: white;
-}
+ }
 
-.noaccount {
-    margin-top: 1vh;
-}
+ .login-btn:hover {
+    transform: scale(1.03);
+ }
 
-.google, .microsoft {
-    background-color: #89CFF0;
-    border-radius: 10vh;
-}
-
-.google, .microsoft {
-    display: inline-flex;
+ .other-opts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     align-items: center;
-    justify-content: center; 
-    gap: 1vh;
-    width: 20vh;          
-    padding: 1.5vh 4vh;
-    margin: 1vh;
-    border: 0.1vh solid white;
-    border-radius: 5vh;
-    background-color: rgba(175, 175, 175, 0.2);
-    color: white;
+ }
+
+ a {
     text-decoration: none;
-    transition: background-color 0.3s;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-    cursor: pointer;
-}
-
-.google h6, .microsoft h6 {
-    margin: 0;
-    font-size: 1.2vh;
-}
-
-.google img, .microsoft img {
-    display: inline-block;
-    vertical-align: middle;
-}
+    color: black;
+    
+ }
