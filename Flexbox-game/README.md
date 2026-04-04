@@ -1,8 +1,9 @@
 ---
 ### This is a project that I hope to build on lots. 🔥
 ---
-## Images: 
-<img width="573" height="249" alt="image" src="https://github.com/user-attachments/assets/c4200fab-2c54-4e24-b937-66eb0781572f" />
+## Images:<br><br>Animations show on hover
+<img width="573" height="368" alt="image" src="https://github.com/user-attachments/assets/c65ad650-d524-419f-b6db-43e64191d444" />
 
-<img width="573" height="249" alt="image" src="https://github.com/user-attachments/assets/705b4645-4852-449d-aea6-17e7fe9a5283" />
+<img width="573" height="365" alt="image" src="https://github.com/user-attachments/assets/449ebb88-e826-4993-9df7-612cfac233de" />
+
 
