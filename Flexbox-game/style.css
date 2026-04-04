@@ -24,7 +24,12 @@ body {
     border-radius: 10px;
     width: 450px;
     height: auto;
-    box-shadow: 0 3px 10px rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.main-page:hover {
+    box-shadow: 0 0 5px #33CCFC;
 }
 
 a {
@@ -34,7 +39,7 @@ a {
 
 .btn {
     display: inline-block;
-    background-color: #007AFF;
+    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
@@ -45,9 +50,35 @@ a {
 }
 
 .btn:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)''
 }
 
 .welcome {
     text-align: center;
+}
+
+.xp-bar {
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 350px;
+    box-shadow: 0 0 10px rgb(255, 215, 0, 0.3);
+}
+
+.filling-up {
+    background: linear-gradient(to right, #5B7FFF, #33CCFC);
+    padding: 15px;
+    border-radius: 30px 15px 15px 30px;
+    width: 64%;
+    animation: fill-xp 1.5s ease-out forwards;
+}
+
+.level-current {
+    text-align: center;
+    font-size: 14px;
+}
+@keyframes fill-xp {
+    from { width: 0; }
+    to { width: 64%; }
 }
