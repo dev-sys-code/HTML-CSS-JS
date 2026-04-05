@@ -6,8 +6,7 @@ body {
     background: linear-gradient(to right, #403F44, #1E1B32);
     font-family: cursive;
     color: white;
-    min-height: 100vh;
-
+    height: 100vh;
 }
 
 .main-page {
@@ -46,7 +45,6 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
     margin: 0px auto;
     padding: 5px;
     border-radius: 10px;
@@ -61,11 +59,17 @@ body {
 }
 
 nav {
-    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
     transition: all 0.2s ease;
+    width: 100%;
 }
 
-nav:hover {
+.navs {
+    transition: all 0.3s ease;
+}
+
+.navs:hover {
     transform: scale(1.1);
 }
 
