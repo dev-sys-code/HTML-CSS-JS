@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <title>Login Page</title>
+        <title>Title</title>
     </head>
     <body>
         <div class="main-box">
-            <div class="input-btns">
-                <h1>Login</h1>
-                <input class="input"type="text" placeholder="Username">
-                <input class="input"type="password" placeholder="Password">
+            <h1>Login</h1>
+            <div class="inputs">
+                <input class="inp-box"type="text" placeholder="Username / Email">
+                <input class="inp-box"type="password" placeholder="Password">
             </div>
-            <div class="login-btn">
-                <a href="#">Login</a>
-            </div> 
+            <div class="Login-btn">
+                <a class="login">Login</a>
+            </div>
+            <div class="F-P-C-A">
+                <a class="fpca">Forgot password?</a>
+                <a class="fpca"></a>No account? Create one!</a>
+            </div>
+
+            <label>
+                <input class="lab" type="checkbox" name="remember" value="yes">
+                Remember me next time
+            </label>
+            <label>
+                <input class="lab" type="checkbox" name="remember" value="yes">
+                Receive emails about updates, offers and more!
+            </label>
             <div class="other-opts">
-                <hr>
-                <a href="#">Forgot Password?</a>
-                <a href="#">No account? Create one!</a>
+                or<br><br>
+                <div class="external-login">
+                    <div class="google">
+                        <img class="logo"src="https://static.vecteezy.com/system/resources/previews/046/861/647/original/google-logo-transparent-background-free-png.png" height="30">
+                        <h4>Sign in with Google</h4>
+                    </div>
+                    <div class="microsoft">
+                        <img class="logo"src="https://purepng.com/public/uploads/large/purepng.com-microsoft-logo-iconlogobrand-logoiconslogos-251519939091wmudn.png" height="30">
+                        <h4>Sign in with Microsoft</h4>
+                    </div>
+                </div>    
             </div>
         </div>
     </body>
