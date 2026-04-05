@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     justify-content: center;
     background: linear-gradient(to right, #403F44, #1E1B32);
     font-family: cursive;
@@ -21,9 +20,8 @@ body {
     width: 450px;
     height: auto;
     box-shadow: 0 0 5px rgb(0, 0, 0);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
-
 .main-page:hover {
     box-shadow: 0 0 5px #33CCFC;
 }
@@ -38,11 +36,11 @@ a {
     background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
     color: white;
     width: 80px;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .btn:hover {
@@ -59,7 +57,7 @@ a {
     border: 2px solid black;
     border-radius: 30px;
     width: 350px;
-    box-shadow: 0 0 10px rgb(255, 215, 0, 0.3);
+    box-shadow: 0 0 5px #5B7FFF
 }
 
 .filling-up {
@@ -87,8 +85,8 @@ a {
     border-radius: 10px;
     background-color: rgb(0, 0, 0, 0.5);
     width: 450px;
-    box-shadow: 0 3px 10px rgb(0, 0, 0);
-    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: all 0.2s ease;
 }
 
 .navbar:hover {
@@ -97,7 +95,7 @@ a {
 
 nav {
     text-align: left;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 nav:hover {
