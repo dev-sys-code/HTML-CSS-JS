@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
     background-color: #6B6E5B;
     font-size: 15px;
     color: white;
@@ -20,6 +23,12 @@ body {
     width: 300px;
     height: 490px;
 }
+
+.profilepicture:hover {
+    transform: scale(1.05);
+    border-radius: 15%;
+}
+
 .placeholderpfp {
     margin: 15px auto;
 }
@@ -29,6 +38,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid ;
+    transition: all 1s ease;
 }
 
 .redirects {
@@ -47,11 +57,10 @@ body {
     text-decoration: none;
     margin-bottom: 15px;
     transition: all 0.2s ease;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .re:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0,);
 }
-
-
