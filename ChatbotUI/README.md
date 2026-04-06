@@ -3,5 +3,5 @@
 ## The F, M, M, D are placeholders for icons
 - F -> Files
 - M -> Media
-- M -> 
+- M -> Model (AI Model)
 - D -> Deep Research
