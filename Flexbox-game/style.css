@@ -16,7 +16,7 @@ body {
     background-color: rgb(255, 255, 255, 0.01);
     padding: 15px;
     border-radius: 10px;
-    width: 450px;
+    width: 500px;
     height: auto;
     box-shadow: 0 0 5px rgb(0, 0, 0);
     transition: all 0.2s ease;
@@ -31,16 +31,33 @@ a {
 }
 
 .btn {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
     color: white;
-    width: 80px;
+    width: 110px;
+    height: 40px;
     text-align: center;
     transition: all 0.2s ease;
 }
+
+.oth-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+    margin: 1vh auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+}
+
 
 .btn:hover {
     transform: scale(1.05)
@@ -101,6 +118,18 @@ nav {
 .navs {
     transition: all 0.3s ease;
 }
+
 .navs:hover {
     transform: scale(1.1);
+}
+
+.gen-stats {
+    display: block;
+    border: 15px solid;
+    width: 50%;
+    height: 15vh;
+}
+
+.stat {
+    font-size: 15px;
 }
