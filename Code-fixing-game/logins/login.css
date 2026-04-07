@@ -58,6 +58,7 @@ body {
 }
 
 .btn {
+    text-align: center;
     width: 100%;
     padding: 12px;
     border-radius: 25px;
@@ -86,4 +87,8 @@ body {
 .register span {
     font-weight: bold;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
