@@ -157,6 +157,8 @@ nav {
     border-radius: 10px;
     margin: 10px;
     transition: all 0.2s ease;
+    height: 20vh;
+    overflow: hidden;
 }
 
 .stats:hover {
