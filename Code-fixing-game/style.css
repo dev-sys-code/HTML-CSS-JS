@@ -144,8 +144,26 @@ nav {
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
+    transition: all 0.2s ease;
 }
 
 .stats:hover {
     box-shadow: 0 0 5px #33CCFC;
+}
+
+.profile-picture {
+    width: 100px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    transition: all 1s ease;
+}
+
+.profile-picture:hover {
+    border-radius: 25%;
+    transform: scale(1.15);
+}
+
+.profile-div {
+    display: flex;
+    justify-content: center;
 }
