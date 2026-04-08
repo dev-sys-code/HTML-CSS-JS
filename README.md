@@ -6,4 +6,5 @@ This repo contains my web development practise projects
 - Code Fixing Game
 - Sign in page
 - Profile-Page
-- Linktree 
+- Linktree
+- Linktree (HTML Template)
