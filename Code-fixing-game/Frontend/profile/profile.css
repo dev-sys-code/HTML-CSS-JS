@@ -1,75 +1,38 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="profile.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&">
+        <title>Main Page</title>
+        <title>Profile</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <nav>
+                <a class="navs" href="../index.html">
+                    <span class="material-symbols-outlined">home</span>
+                    <div class="name">home</div>
+                </a>
+                <a class="navs" href="../settings/settings.html">
+                    <span class="material-symbols-outlined">settings</span>
+                    <div class="name">settings</div>
+                </a>
+                <a class="navs"href="profile.html">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    <div class="name">profile</div>
+                </a>
+                <a class="navs"href="../logins/login.html">
+                    <span class="material-symbols-outlined">login</span>
+                    <div class="name">login</div>
+                </a>
+            </nav>
+        </div>
+        <div class="main-page">
+            <img class="profile-picture"src="https://avatars.githubusercontent.com/u/142793020?v=4">
+            <h2><u>dev-sys</u></h2>
+            <div class="buttons">
 
-    background: linear-gradient(to right, #403F44, #1E1B32);
-    font-family: cursive;
-    color: white;
-
-    margin: 10px;
-    height: 100vh;
-}
-
-.profile-picture {
-    border-radius: 50%;
-    height: 100px;
-}
-
-.main-page {
-    margin-top: auto;
-    margin-bottom: auto ;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
-    padding: 15px;
-    border-radius: 10px;
-    width: 500px;
-}
-
-.navbar {
-    display: flex;
-    margin: 0px auto;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: rgb(0, 0, 0, 0.5);
-    width: 100vh;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
-    transition: all 0.2s ease;
-    height: 40px;
-}
-
-.navbar:hover {
-    box-shadow: 0 0 5px #33CCFC;
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    transition: all 0.2s ease;
-    width: 100%;
-    
-}
-
-.navs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: all 0.3s ease;
-}
-
-.navs:hover {
-    transform: scale(1.1);
-}
-
-.name {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 10px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
+            </div>
+        </div>
+    </body>
+</html>
