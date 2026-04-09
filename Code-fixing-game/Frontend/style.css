@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: rgb(255, 255, 255, 0.01);
+    background-color: rgba(255, 255, 255, 0.01);
     padding: 15px;
     border-radius: 10px;
     width: 500px;
@@ -180,4 +180,29 @@ nav {
 .profile-div {
     display: flex;
     justify-content: center;
+}
+
+.ind-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+    color: white;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.ind-game:hover {
+    transform: scale(1.05);
+}
+
+.games-r {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
