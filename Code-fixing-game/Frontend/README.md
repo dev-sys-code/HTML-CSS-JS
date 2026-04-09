@@ -2,7 +2,10 @@
 <img width="585" height="658" alt="image" src="https://github.com/user-attachments/assets/2e9a7a12-cd56-4509-9cb2-e86382da4d1c" />
 
 ---
+Note: Empty folders are placeholders and will be filled up soon
+---
 ## Updates:
+- V1.0.3: Simple cookie clicker in 'other-games' section
 - V1.0.2: Added many more buttons
 - V1.0.1: Huge improvement on navigation bar, added a login page
 - V1.0.1: Navigation bar, added levels UI and settings UI
