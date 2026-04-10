@@ -1,7 +1,4 @@
-<img width="930" height="1077" alt="image" src="https://github.com/user-attachments/assets/251c8625-aa6f-4ff8-8b02-9c54c4d05db6" />
-
----
-### Image is very zoomed out to fit everything in
+<img width="831" height="678" alt="image" src="https://github.com/user-attachments/assets/b7290a6e-b12f-42a4-809e-64b1ed7ad345" />
 
 ## Updates:
 - V1.0.4: Added a stats section, fixed general code
