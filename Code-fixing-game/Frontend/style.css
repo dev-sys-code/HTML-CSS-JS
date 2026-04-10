@@ -1,249 +1,93 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to right, #403F44, #1E1B32);
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    min-height: 100vh;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&">
+        <title>Main Page</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <nav>
+                <a class="navs" href="index.html">
+                    <span class="material-symbols-outlined">home</span>
+                    <div class="name">home</div>
+                </a>
+                <a class="navs" href="settings/settings.html">
+                    <span class="material-symbols-outlined">settings</span>
+                    <div class="name">settings</div>
+                </a>
+                <a class="navs"href="profile/profile.html">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    <div class="name">profile</div>
+                </a>
+                <a class="navs"href="logins/login.html">
+                    <span class="material-symbols-outlined">login</span>
+                    <div class="name">login</div>
+                </a>
+            </nav>
+        </div>
+        <!-- Background soon
+        <div class="background">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div> -->
+        <div class="main-page">
+            <a class="pfp-click"href="profile/profile.html">
+                <div class="profile-div">
+                    <img class="profile-picture"src="https://avatars.githubusercontent.com/u/142793020?v=4">
+                </div>
+            </a>
+            <h2 class="welcome"><u>dev-sys</u></h2>
+            <p class="level-current">Level 1 (64xp / 100xp)</p>
+            <div class="xp-bar">
+                <div class="filling-up">
+                </div>    
+            </div>
+            <div class="buttons">
+                <a class="btn"href="#">Continue</a>
+                <a class="btn"href="levels-all/all-levels.html">All Levels</a>
+            </div>
+            <div class="oth-btns">
+                <a class="btn"href="profile/profile.html">Profile</a>
+                <a class="btn"href="friends/friends.html">Friends</a>
+                <a class="btn"href="leaderboards/leaderboard.html">Leaderboards</a>
+            </div>
+            <div class="stats">
+                <div class="gen-stats">
+                    <h4><u>Stats</u></h4>
+                    <h1 class="stat">Time Spent: 1d 1h 1m</h1>
+                    <h1 class="stat">Levels completed: 0</h1>
+                </div>
+                <div class="most-active-days">
+                    <h4><u>Most active days</u></h4>
+                    <span class="mon">Mon</span>
+                    <span class="tue">Tue</span>
+                    <span class="wed">Wed</span>
+                    <span class="thu">Thu</span>
+                    <span class="fri">Fri</span>
+                    <span class="sat">Sat</span>
+                    <span class="sun">Sun</span>
+                </div>
+            </div>
+            <h2>Other games:</h2>
+            <div class="other-games">
+                <a class="games-r"href="other-games/cookie-clicker.html">
+                    <div class="ind-game">
+                        🍪 Cookie Clicker 🍪
+                    </div>
+                    <div class="ind-game">
 
-.navbar {
-    display: flex;
-    margin: 10px auto;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 90%;
-    max-width: 900px;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
-    transition: all 0.2s ease;
-    height: 40px;
-}
-
-.navbar:hover {
-    box-shadow: 0 0 5px #33CCFC;
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.navs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: all 0.3s ease;
-}
-
-.navs:hover {
-    transform: scale(1.1);
-}
-
-.name {
-    font-size: 10px;
-    text-align: center;
-}
-
-.main-page {
-    display: flex;
-    flex-direction: column;
-    margin: 20px auto;
-    background-color: var(--card);
-    padding: 15px;
-    border-radius: 10px;
-    width: 75vh;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
-    transition: all 0.2s ease;
-}
-
-.main-page:hover {
-    box-shadow: 0 0 5px #33CCFC;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    width: 110px;
-    height: 40px;
-    transition: all 0.2s ease;
-}
-
-.btn:hover {
-    transform: scale(1.05);
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1vh;
-}
-
-.oth-btns {
-    display: flex;
-    justify-content: center;
-    gap: 1vh;
-    margin: 1vh auto;
-}
-
-.welcome {
-    text-align: center;
-}
-
-.level-current {
-    text-align: center;
-    font-size: 14px;
-}
-
-.xp-bar {
-    margin: 15px auto;
-    border: 2px solid black;
-    border-radius: 30px;
-    width: 350px;
-    box-shadow: 0 0 5px #5B7FFF;
-}
-
-.filling-up {
-    background: linear-gradient(to right, #5B7FFF, #33CCFC);
-    padding: 15px;
-    border-radius: 30px;
-    width: 64%;
-    animation: fill-xp 1.5s ease-out forwards;
-}
-
-@keyframes fill-xp {
-    from { width: 0; }
-    to { width: 64%; }
-}
-
-.stats {
-    display: flex;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
-    padding: 15px;
-    border-radius: 10px;
-    margin: 10px;
-    transition: all 0.2s ease;
-    height: 50vh;
-    overflow: hidden;
-}
-
-.stats:hover {
-    box-shadow: 0 0 5px #33CCFC;
-}
-
-.gen-stats {
-    width: 50%;
-}
-
-.stat {
-    font-size: 15px;
-}
-
-.most-active-days {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 15px;
-}
-
-.profile-picture {
-    width: 100px;
-    border-radius: 50%;
-    border: 1.5px solid white;
-    transition: all 1s ease;
-}
-
-.profile-picture:hover {
-    border-radius: 25%;
-    transform: scale(1.15);
-}
-
-.profile-div {
-    display: flex;
-    justify-content: center;
-}
-
-.ind-game {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    width: 240px;
-    height: 40px;
-    transition: all 0.2s ease;
-}
-
-.ind-game:hover {
-    transform: scale(1.05);
-}
-
-.games-r {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.mon {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    width: 200px;
-    border-radius: 5px;
-}
-
-.tue {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    width: 95px;
-    border-radius: 5px;
-}
-
-.wed {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    width: 55px;
-    border-radius: 5px;
-}
-
-.thu {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    width: 85px;
-    border-radius: 5px;
-}
-
-.fri {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    width: 35px;
-    border-radius: 5px;
-}
-
-.sat {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    width: 25px;
-    border-radius: 5px;
-}
-
-.sun {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    width: 55px;
-    border-radius: 5px;
-}
+                    </div>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
