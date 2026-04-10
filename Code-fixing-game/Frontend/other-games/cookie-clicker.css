@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right, #403F44, #1E1B32);
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     height: 100vh;
 }
@@ -19,6 +19,11 @@ body {
     box-shadow: 0 0 5px rgb(0, 0, 0);
     border-radius: 10px;
     margin: auto;
+    transition: all 0.2s ease;
+}
+
+.main-page:hover {
+    box-shadow: 0 0 5px #33CCFC;
 }
 
 .score {
@@ -98,7 +103,7 @@ a {
     text-align: center;
     transition: all 0.2s ease;
     cursor: pointer;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .s-btn:active {
