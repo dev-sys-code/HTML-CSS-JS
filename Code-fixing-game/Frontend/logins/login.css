@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    font-family: sans-serif;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(to bottom right, #403F44, #1e1b32);
     display: flex;
     justify-content: center;
