@@ -12,3 +12,8 @@ function save() {
 
 function selSave() {
 }
+
+function reset() {
+    count = 0
+    document.getElementById("score").innerText = count;
+}
