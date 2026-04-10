@@ -13,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .card {
@@ -27,25 +26,33 @@ body {
     align-items: center;
     gap: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 75vh;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px #33CCFC;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 40%;
     gap: 10px;
 }
 
-.inputs input {
+input {
     padding: 12px;
-    border-radius: 25px;
-    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid white;
     background: transparent;
     color: white;
     outline: none;
 }
 
-.inputs input::placeholder {
+input::placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -53,25 +60,29 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    width: 100%;
+    width: 50%;
     font-size: 14px;
 }
 
 .btn {
     text-align: center;
-    width: 100%;
+    width: 35vh;   
     padding: 12px;
     border-radius: 25px;
     border: none;
-    background: white;
-    color: black;
+    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     cursor: pointer;
-    transition: 0.2s;
+    transition: all 0.3s ease;
 }
 
 .btn:hover {
     opacity: 0.8;
+}
+
+.btn:active {
+    transform: scale(0.95);
 }
 
 .forgot {
@@ -91,4 +102,5 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
