@@ -28,7 +28,12 @@ body {
     box-shadow: 0 0 5px rgb(0, 0, 0);
     padding: 15px;
     border-radius: 10px;
-    width: 500px;
+    width: 75vh;
+    transition: all 0.3s ease;
+}
+
+.main-page:hover {
+    box-shadow: 0 0 5px #33CCFC;
 }
 
 .navbar {
@@ -76,4 +81,84 @@ nav {
 a {
     color: white;
     text-decoration: none;
+}
+
+.stats {
+    display: flex;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all 0.2s ease;
+    height: 50vh;
+    width: 80%;
+    overflow: hidden;
+}
+
+.stats:hover {
+    box-shadow: 0 0 5px #33CCFC;
+}
+
+.gen-stats {
+    width: 50%;
+}
+
+.stat {
+    font-size: 15px;
+}
+
+.most-active-days {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+
+.mon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.tue {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 95px;
+    border-radius: 5px;
+}
+
+.wed {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+.thu {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 85px;
+    border-radius: 5px;
+}
+
+.fri {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+.sat {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.sun {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 55px;
+    border-radius: 5px;
 }
