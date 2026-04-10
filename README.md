@@ -7,5 +7,4 @@ This repo contains my web development practise projects
 - Sign in page
 - Profile-Page
 - Linktree
-- Linktree (HTML Template)
 - ChatBOT AI
