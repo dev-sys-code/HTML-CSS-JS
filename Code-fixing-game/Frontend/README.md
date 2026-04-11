@@ -7,3 +7,5 @@
 - V1.0.1: Huge improvement on navigation bar, added a login page
 - V1.0.1: Navigation bar, added levels UI and settings UI
 - V1.0: Created a basic UI
+
+---
