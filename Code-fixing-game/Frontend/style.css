@@ -81,8 +81,8 @@ a {
     transition: all 0.2s ease;
 }
 
-.btn:hover {
-    transform: scale(1.05);
+.btn:active {
+    transform: scale(0.95);
 }
 
 .buttons {
@@ -158,8 +158,8 @@ a {
     transition: all 0.2s ease;
 }
 
-.ind-game:hover {
-    transform: scale(1.05);
+.ind-game:active {
+    transform: scale(0.95);
 }
 
 .games-r {
