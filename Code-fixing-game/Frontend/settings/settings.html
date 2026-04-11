@@ -3,7 +3,6 @@
     <head>
         <link rel="stylesheet" href="settings.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&">
-        <title>Main Page</title>
         <title>Settings</title>
     </head>
     <body>
@@ -27,11 +26,12 @@
                 </a>
             </nav>
         </div>
+        <h1>Settings</h1>
         <div class="main-page">
-            <h1>Settings</h1>
             <div class="setting-boxes">
                 <h2>General</h2>
-                <a href="options/account.html" class="boxes">
+                <div class="general">
+                    <a href="options/account.html" class="boxes">
                     <div>
                         <span class="material-symbols-outlined">account_box</span>
                         Account
@@ -43,15 +43,18 @@
                         Privacy
                     </div>
                 </a>
+                </div>    
                 <h2>Appearance</h2>
-                <a href="options/theme.html" class="boxes">
+                <div class="appearance">
+                    <a href="options/theme.html" class="boxes">
                     <div>
                         <span class="material-symbols-outlined">nightlight</span>
                         Themes
                     </div>
                 </a>
+                </div>
                 <h2 class="red">Danger zone</h2>
-                <a href="#" class="boxes">
+                <div class="danger-zone"><a href="#" class="boxes">
                     <div>
                         <span class="material-symbols-outlined">delete</span>
                         Delete Data
@@ -68,7 +71,7 @@
                         <span class="material-symbols-outlined">password_2</span>
                         Reset Password
                     </div>
-                </a>
+                </a></div>
             </div>
         </div>
     </body>
