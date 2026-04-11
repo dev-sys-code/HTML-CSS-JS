@@ -50,6 +50,13 @@ input {
     background: transparent;
     color: white;
     outline: none;
+    transition: all 0.3s ease;
+}
+
+input:hover {
+    border: 1px solid white;
+    box-shadow: 0 0px 10px  white;
+    border-radius: 30px;
 }
 
 input::placeholder {
