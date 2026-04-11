@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, #403F44, #1E1B32);    
+        background: linear-gradient(135deg, #403F44, #1E1B32);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     height: 100vh;
@@ -16,10 +16,11 @@ body {
     background-color: rgba(0, 0, 0, 0.01);
     padding: 15px;
     border-radius: 10px;
-    width: 75vh;
-    height: auto;
+    width: 750px;
+    height: 75vh;
     box-shadow: 0 0 5px rgb(0, 0, 0);
     transition: all 0.2s ease;
+    overflow-y: scroll;
 }
 
 .main-page:hover {
@@ -29,17 +30,32 @@ body {
 .setting-boxes {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
+
+.danger-zone {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(168, 49, 49);
+    border-radius: 15px;
+}
+
+.general, .appearance {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
 .boxes div {
     display: flex;
     align-items: center;
     background-color: #1C1C1E;
-    border-radius: 25px;
+    border-radius: 10px;
     gap: 10px;
     height: 50px;
     padding-left: 30px;
     background: linear-gradient(to right, #5B7FFF, #33CCFC);
+    margin: 5px;
 }
 
 .boxes {
@@ -99,4 +115,8 @@ a {
 
 .red {
     color: rgb(168, 49, 49);
+}
+
+.main-page::-webkit-scrollbar {
+    width: 0px;
 }
