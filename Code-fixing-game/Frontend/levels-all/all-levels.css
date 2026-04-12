@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background: linear-gradient(135deg, #403F44, #1E1B32);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
@@ -11,13 +12,17 @@ body {
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
     display: flex;
     margin: 10px auto;
     padding: 5px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 90%;
-    max-width: 900px;
+    width: 70%;
+    max-width: 90%;
     box-shadow: 0 0 5px rgb(0, 0, 0);
     transition: all 0.2s ease;
     height: 40px;
@@ -51,16 +56,13 @@ nav {
 
 .all-levels {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 5px;
-    padding: 10px;
-    border-radius: 15px;
-    width: 75vh;
-    min-height: 300px;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
+    flex-direction: column;
     margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 85%;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
     transition: all 0.2s ease;
 }
 
