@@ -1,26 +1,67 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(135deg, #403F44, #1E1B32);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     color: white;
 }
 
+.navbar {
+    display: flex;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: all 0.2s ease;
+    height: 40px;
+}
+
+.navbar:hover {
+    box-shadow: 0 0 10px #5A6A80;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.navs:hover {
+    transform: scale(1.1);
+}
+
+.name {
+    font-size: 10px;
+    text-align: center;
+}
+
 .container {
     display: flex;
+    flex-grow: 1;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 20px 0;
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.05);
+    background: transparent;
     backdrop-filter: blur(10px);
     padding: 30px;
     border-radius: 15px;
-    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,18 +72,18 @@ body {
 }
 
 .card:hover {
-    box-shadow: 0 0 5px #33CCFC;
+    box-shadow: 0 0 10px #5A6A80;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     gap: 10px;
 }
 
 input {
-    padding: 12px;
+    padding: 10px;
     border-left: none;
     border-right: none;
     border-top: none;
@@ -57,11 +98,15 @@ input::placeholder {
     color: white;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
 .remember {
     display: flex;
     align-items: center;
     gap: 8px;
-    width: 50%;
+    width: 55%;
     font-size: 14px;
 }
 
@@ -71,25 +116,15 @@ input::placeholder {
     padding: 12px;
     border-radius: 25px;
     border: none;
-    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
-    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom right, #2B2F36, #4A5568);
+    color: white;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.btn:hover {
-    opacity: 0.8;
-}
-
 .btn:active {
     transform: scale(0.95);
-}
-
-.forgot {
-    font-size: 13px;
-    color: white;
-    text-decoration: none;
 }
 
 .register {
@@ -98,7 +133,6 @@ input::placeholder {
 
 .register span {
     font-weight: bold;
-    cursor: pointer;
 }
 
 a {
