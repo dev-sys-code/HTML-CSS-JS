@@ -54,7 +54,7 @@ body {
 }
 
 .navbar:hover {
-    box-shadow: 0 0 5px #33CCFC;
+    box-shadow: 0 0 10px #5A6A80;
 }
 
 nav {
@@ -92,7 +92,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
+    background: linear-gradient(to bottom right, #2B2F36, #4A5568);
     padding: 5px;
     border-radius: 5px;
     border: none;
