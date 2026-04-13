@@ -9,4 +9,4 @@ This repo contains my web development practise projects
 - Linktree
 - ChatBOT AI (UI)
 
-Note: I'm learning JS right now so not much
+Note: Currently learning JS so not much
