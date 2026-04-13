@@ -1,4 +1,4 @@
-<img width="657" height="713" alt="image" src="https://github.com/user-attachments/assets/81e01774-9729-454f-be41-37eb862c53dc" />
+<img width="631" height="605" alt="image" src="https://github.com/user-attachments/assets/d0ff5b44-7860-4fc3-8866-92ef53ceeae0" />
 
 ## Updates:
 - V1.0.5: Huge Redesign on colours
