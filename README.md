@@ -8,6 +8,6 @@ This repo contains my web development practise projects
 - Profile-Page
 - Linktree
 - ChatBOT AI (UI)
-- 
+- Soon
 
 Note: Currently learning JS so not much
