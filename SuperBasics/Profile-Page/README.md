@@ -3,4 +3,5 @@ Update soon
 
 ---
 
-<img width="568" height="814" alt="image" src="https://github.com/user-attachments/assets/0a5a644a-9307-48b6-9504-3540a657486b" />
+<img width="498" height="802" alt="image" src="https://github.com/user-attachments/assets/d084a8e4-bdd1-4754-8487-7cdd0b4e0829" />
+
