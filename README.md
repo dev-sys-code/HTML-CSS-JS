@@ -3,7 +3,7 @@
 This repo contains my web development practise projects
 
 ## Projects
-- Code Fixing Game -> Long-term project
+- Code Fixing Game → Long-term project
 - Sign in page
 - Profile-Page
 - Linktree
