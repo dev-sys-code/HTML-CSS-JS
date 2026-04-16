@@ -10,13 +10,17 @@ body {
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
     display: flex;
     margin: 10px auto;
     padding: 5px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 90%;
-    max-width: 900px;
+    width: 70%;
+    max-width: 90%;
     box-shadow: 0 0 5px rgb(0, 0, 0);
     transition: all 0.2s ease;
     height: 40px;
@@ -65,8 +69,8 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 75vh;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    width: 75%;
     transition: all 0.3s ease;
 }
 
