@@ -60,14 +60,14 @@ nav {
     margin: 20px auto;
     padding: 15px;
     border-radius: 10px;
-    width: 100%;
-    max-width: 85%;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
+    width: 75%;
+    max-width: 75%;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
     transition: all 0.2s ease;
 }
 
 .all-levels:hover {
-    box-shadow: 0 0 10px #5A6A80;
+    box-shadow: 0 0 2px #5A6A80;
 }
 
 .container {
@@ -86,7 +86,7 @@ nav {
     border-radius: 15px;
     text-align: center;
     transition: all 0.2s ease;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
+    box-shadow: 0 0 2px rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ nav {
 }
 
 .levels:hover {
-    box-shadow: 0 0 10px #5A6A80;
+    box-shadow: 0 0 2px #5A6A80;
 }
 
 .levels:active {
@@ -117,11 +117,6 @@ nav {
 
 .back-next:hover {
     transform: scale(1.05);
-}
-
-.b-n-btns {
-    display: flex;
-    gap: 15px;
 }
 
 a {
