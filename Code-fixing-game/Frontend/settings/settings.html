@@ -1,78 +1,125 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="settings.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&">
-        <title>Settings</title>
-    </head>
-    <body>
-        <div class="navbar">
-            <nav>
-                <a class="navs" href="../index.html">
-                    <span class="material-symbols-outlined">home</span>
-                    <div class="name">home</div>
-                </a>
-                <a class="navs" href="settings.html">
-                    <span class="material-symbols-outlined">settings</span>
-                    <div class="name">settings</div>
-                </a>
-                <a class="navs"href="../profile/profile.html">
-                    <span class="material-symbols-outlined">account_circle</span>
-                    <div class="name">profile</div>
-                </a>
-                <a class="navs"href="../logins/login.html">
-                    <span class="material-symbols-outlined">login</span>
-                    <div class="name">login</div>
-                </a>
-            </nav>
-        </div>
-        <h1>Settings</h1>
-        <div class="main-page">
-            <div class="setting-boxes">
-                <h2>General</h2>
-                <div class="general">
-                    <a href="options/account.html" class="boxes">
-                    <div>
-                        <span class="material-symbols-outlined">account_box</span>
-                        Account
-                    </div>
-                </a>
-                <a href="#" class="boxes">
-                    <div>
-                        <span class="material-symbols-outlined">fingerprint</span>
-                        Privacy
-                    </div>
-                </a>
-                </div>    
-                <h2>Appearance</h2>
-                <div class="appearance">
-                    <a href="options/theme.html" class="boxes">
-                    <div>
-                        <span class="material-symbols-outlined">nightlight</span>
-                        Themes
-                    </div>
-                </a>
-                </div>
-                <h2 class="red">Danger zone</h2>
-                <div class="danger-zone"><a href="#" class="boxes">
-                    <div>
-                        <span class="material-symbols-outlined">delete</span>
-                        Delete Data
-                    </div>
-                </a>
-                <a href="#" class="boxes">
-                    <div>
-                        <span class="material-symbols-outlined">restart_alt</span>
-                        Reset Settings
-                    </div>
-                </a>
-                <a href="#" class="boxes">
-                    <div>
-                        <span class="material-symbols-outlined">password_2</span>
-                        Reset Password
-                    </div>
-                </a></div>
-            </div>
-        </div>
-    </body>
-</html>
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #403F44, #1E1B32);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    max-width: 90%;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: all 0.2s ease;
+    height: 40px;
+}
+
+.navbar:hover {
+    box-shadow: 0 0 10px #5A6A80;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.navs:hover {
+    transform: scale(1.1);
+}
+
+.name {
+    font-size: 10px;
+    text-align: center;
+}
+.main-page {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 75%;
+    max-width: 75%;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    transition: all 0.2s ease;
+}
+
+.main-page:hover {
+    box-shadow: 0 0 2px #5A6A80;
+}
+
+.main-page::-webkit-scrollbar {
+    width: 5px;
+}
+
+.main-page::-webkit-scrollbar-thumb {
+    background: #4A5568;
+    border-radius: 10px;
+}
+
+.setting-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.danger-zone {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(168, 49, 49);
+    border-radius: 15px;
+}
+
+.general, .appearance {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.boxes div {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom right, #2B2F36, #4A5568);
+    border-radius: 10px;
+    gap: 10px;
+    height: 50px;
+    padding-left: 30px;
+    margin: 5px;
+}
+
+.boxes {
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.boxes:active {
+    transform: scale(0.95);
+}
+
+.red {
+    color: rgb(168, 49, 49);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
