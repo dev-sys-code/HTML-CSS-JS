@@ -62,12 +62,12 @@ nav {
     border-radius: 10px;
     width: 75%;
     max-width: 75%;
-    box-shadow: 0 0 5px rgb(0, 0, 0);
+    box-shadow: 0 0 2px rgb(0, 0, 0);
     transition: all 0.2s ease;
 }
 
 .main-page:hover {
-    box-shadow: 0 0 10px #5A6A80;
+    box-shadow: 0 0 2px #5A6A80;
 }
 
 .profile-picture {
