@@ -1,4 +1,7 @@
-<img width="596" height="587" alt="image" src="https://github.com/user-attachments/assets/d9864bc8-8a25-4063-89be-49e6b1117b9e" />
+<img width="691" height="76" alt="image" src="https://github.com/user-attachments/assets/63a40aff-9089-4645-9b88-c64806554eef" />
+<img width="691" height="620" alt="image" src="https://github.com/user-attachments/assets/543925ea-7179-4a09-ba9d-17b894c13d07" />
+
+
 
 ## Updates:
 - Majour update SOON
