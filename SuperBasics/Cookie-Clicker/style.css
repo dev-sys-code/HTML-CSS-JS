@@ -1,44 +1,62 @@
 body {
-    color: white;
-    height: 100vh;
-    font-family: sans-serif;
-    background-color: beige;
-    
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+
+    background: linear-gradient(to bottom right, #FDC639, #FF7C60);
+    font-family: sans-serif;
+    color: white;
 }
 
 main {
-    background-color: skyblue;
-    padding: 15px;
-    width: 50%;
-    height: 50%;
-    border-radius: 10px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-color: rgb(255, 255, 255, 0.35);
+    height: 50%;
+    width: 35%;
+    border-radius: 10px;
 }
 
-.cookie-button {
-    background: transparent;
-    border: none;
-    font-size: 150px;
+h1 {
+    font-size: 100px;
+}
+
+button {
+    padding: 15px;
+    background-color: red;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-radius: 10px;
+    width: 150px;
     transition: all 0.3s ease;
 }
 
-.reset {
-    background-color: red;
-    border: none;
-    padding: 15px;
-    border-radius: 10px;
-    width: 50%;
-    font-size: 15px;   
-    transition: all 0.3s ease; 
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 button:active {
+    box-shadow: 0 0 0;
+    transform: translateX(2px) translateY(2px);
+    border: none;
+}
+
+#cookie {
+    transition: all 0.3s ease;
+}
+
+#cookie:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#cookie:active {
     transform: scale(0.95);
 }
