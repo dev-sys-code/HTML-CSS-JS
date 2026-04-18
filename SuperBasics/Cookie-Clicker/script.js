@@ -6,6 +6,6 @@ function increment() {
 }
 
 function reset() {
-    count = 0
+    count = 0;
     document.getElementById("score").innerHTML = count;
 }
