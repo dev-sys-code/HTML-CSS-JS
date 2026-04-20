@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background: url("https://wallpaperaccess.com/full/1792957.jpg");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+form {
+    background-color: rgb(255, 255, 255, 0.35);
+    padding: 15px;
+    width: 60%;
+    min-width: 250px;
+    max-width: 700px;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    width: 80%;
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-stuff {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-inputs {
+    color: white;
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.other {
+    width: 100%;
+
+    display: flex;
+    gap: 5px;
+}
+
+.sign-up {
+    width: 100%;
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.create-account-btn {
+    padding: 15px;
+    border-radius: 5px;
+    width: 50%;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.create-account-btn:hover {
+    opacity: 0.5;
+}
+
+.create-account-btn:active {
+    transform: scale(0.95);
+}
+
+strong {
+    cursor: pointer;
+    color: skyblue;
+}
+
+a {
+    text-decoration: none;
+    color: skyblue;
+}
