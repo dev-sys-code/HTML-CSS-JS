@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    
+}
+
+nav {
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.size-normal {
+    font-size: large;
+}
+
+.size-above {
+    font-size: xx-large;
+}
