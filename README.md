@@ -9,5 +9,6 @@ This repo contains my web development practise projects
 - Profile-Page
 - Linktree
 - ChatBOT AI (UI)
+- Clone websites
 
 Note: Currently learning JS so not much
