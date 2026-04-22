@@ -8,6 +8,6 @@ This repo contains my web development practise projects
 - Sign up page + A better one
 - Profile-Page
 - Linktree
-- ChatBOT AI (UI)
+- AI (UI)
 - Clone websites
 - iOS / macOS Inspos
