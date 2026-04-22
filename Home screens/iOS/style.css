@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background-color: grey;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+    background: url("https://cdn.osxdaily.com/wp-content/uploads/2025/07/iOS-26-Wallpaper-Sky-Dark-2.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid black;
+    border-radius: 50px;
+    width: 270px;
+    height: 540px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notch {
+    margin: 8px;
+    height: 25px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.date {
+    font-size: 12px;
+    color: rgb(255, 255, 255, 0.85);
+}
+
+.time {
+    color: rgb(255, 255, 255, 0.85);
+}
+
+.notifications {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.notification {
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
+    padding: 10px;
+    border-radius: 20px;
+    width: 230px;
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+    border-right: 1px solid rgb(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notification-heading {
+    font-size: 11px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.notification-p {
+    font-size: 10px;
+    max-width: 150px;
+}
+
+.clear-all-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.clear-all {
+    font-size: 9px;
+    background-color: rgb(255, 255, 255, 0.15);
+    height: 20px;
+    width: 60px;
+    border-radius: 10px;
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+    border-right: 1px solid rgb(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noti-centre {
+    font-size: 17px;
+    width: 100%;
+}
+
+.charger-1 {
+    background-color: white;
+    width: 40px;
+    height: 75px;
+    box-shadow: 0 0 5px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.charger-2 {
+    background-color: white;
+    width: 15px;
+    height: 100px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.charger-whole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
