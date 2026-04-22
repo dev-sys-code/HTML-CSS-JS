@@ -23,6 +23,7 @@ nav {
     width: 70%;
     max-width: 1000px;
     z-index: 1000;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +60,7 @@ a {
 }
 
 .main-text-get {
-    font-size: clamp(30px, 5vw, 50px);
+    font-size: 40px;
     text-align: center;
     margin: 40px 0;
 }
@@ -90,4 +91,8 @@ a {
 .options h1 {
     font-size: 1.5rem;
     margin: 15px 0 10px 0;
+}
+
+.options a {
+    color: blue;
 }
