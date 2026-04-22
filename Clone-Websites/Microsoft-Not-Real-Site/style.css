@@ -94,5 +94,29 @@ a {
 }
 
 .options a {
-    color: blue;
+    color: rgb(43, 108, 247);
+}
+
+.other-text-under {
+    width: 100%;
+    gap: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    border-radius: 10px;
+    max-width: 1000px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.other-text-under a {
+    color: rgb(43, 108, 247);
+}
+
+.other-text-under div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
