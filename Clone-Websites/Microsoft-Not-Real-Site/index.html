@@ -1,93 +1,44 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Microsoft Rewards</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <nav>
+                <a href="#"><img src="https://joelhoke.me/wp-content/uploads/2019/07/Microsoft-Logo-Transparent-Background.png" height="50"></a>
+                <a class="size-normal" href="#">
+                    dev-sys
+                    <img class="pfp" src="https://avatars.githubusercontent.com/u/142793020?v=4" height="35">
+                </a>
+            </nav>
 
-main {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-}
+            <div class="offer">
+                <img class="offer" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Multi-Device-Blue-MobileScreenRewardsTile:VP5-1920x720" width="90%">
+            </div>
+            <h2 class="main-text-get">Getting started is easy</h2>
 
-nav {
-    box-shadow: 0 0 3px black;
-    border-radius: 10px;
-    padding: 10px 20px;
-    backdrop-filter: blur(5px);
-    position: fixed;
-    top: 15px;
-    width: 70%;
-    max-width: 1000px;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+            <div class="every-option-wrap">
+                <div class="options">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RW16joK-GettingStarted_checkmark_517x291?wid=517&hei=291&fit=crop">
+                <h1>Sign in</h1>
+                <p>You may already be a member. Try logging in with your Microsoft account, before creating a new one.</p>
+                <a href="#">Sign in ></a>
+            </div>
+            
+            <div class="options">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RW16joJ-GettingStarted_computer_517x291?wid=517&hei=291&fit=crop">
+                <h1>Visit the Rewards dashboard</h1>
+                <p>This fully activates your account, so you can start earning instantly</p>
+                <a href="#">Visit dashboard ></a>
+            </div>
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.size-normal {
-    font-size: large;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.pfp {
-    border-radius: 50%;
-}
-
-.offer {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    width: 100%;
-}
-
-.offer img {
-    border-radius: 15px;
-    box-shadow: 0 0 5px black;
-    max-width: 90%;
-    height: auto;
-}
-
-.main-text-get {
-    font-size: clamp(30px, 5vw, 50px);
-    text-align: center;
-    margin: 40px 0;
-}
-
-.every-option-wrap {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.options {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    max-width: 350px;
-}
-
-.options img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.options h1 {
-    font-size: 1.5rem;
-    margin: 15px 0 10px 0;
-}
+            <div class="options">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RW16gOY-GettingStarted_heart_517x291?wid=517&hei=291&fit=crop">
+                <h1>Earn points, score top rewards</h1>
+                <p>Rack up points and redeem them for gift cards, cash donations to causes you care about, and more</p>
+            </div>
+        </main>
+    </body>
+</html>
