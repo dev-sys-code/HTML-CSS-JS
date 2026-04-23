@@ -1,3 +1,3 @@
 ## Not finished
 
-<img width="836" height="638" alt="image" src="https://github.com/user-attachments/assets/983be163-ecd4-431b-b013-32ac7c664cc8" />
+<img width="811" height="646" alt="image" src="https://github.com/user-attachments/assets/919404e1-dbcc-43e9-b05a-2fbd734e558c" />
