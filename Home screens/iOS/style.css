@@ -3,123 +3,262 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    color: white;
+    height: 100vh;
+    gap: 8px;
+    font-family: sans-serif;
     background-color: grey;
-    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 main {
-    background: url("https://cdn.osxdaily.com/wp-content/uploads/2025/07/iOS-26-Wallpaper-Sky-Dark-2.jpg");
+    width: 690px;
+    height: 466px;
+    border-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: url("https://applescoop.org/image/wallpapers/mac/macos-13-ventura-default-dark-22-09-2024-1727044728-hd-wallpaper.jpg");
     background-size: cover;
     background-position: center;
-    border: 10px solid black;
-    border-radius: 50px;
-    width: 270px;
-    height: 540px;
+    border: 5px solid #000000;
+    box-shadow: 0 0 5px black;
+    transform: perspective(1000px) rotateX(10deg);
 
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
 }
 
-.notch {
-    margin: 8px;
-    height: 25px;
-    width: 80px;
-    background-color: black;
-    border-radius: 50px;
+.main-text {
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transform: translateY(40px);
 }
 
 .date {
-    font-size: 12px;
-    color: rgb(255, 255, 255, 0.85);
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.7);
 }
 
 .time {
-    color: rgb(255, 255, 255, 0.85);
+    font-size: 70px;
+    transform: translateY(-60px);
+    color: rgb(255, 255, 255, 0.7);
 }
 
-.notifications {
+.keyboard {
+    height: 320px;
+    width: 730px;
+    background: linear-gradient(180deg, #2c2c2e, #1c1c1e);
+    border-radius: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transform: perspective(1000px) rotateX(65deg);
+    transform-origin: top;
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.6),
+        inset 0 1px 0 rgba(255,255,255,0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notch {
+    background-color: rgb(0, 0, 0);
+    height: 18px;
+    width: 80px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transform: translateY(-795px);
+}
+
+.keys {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
+    margin: 20px 25px;
 }
 
-.notification {
-    background-color: rgb(255, 255, 255, 0.1);
-    backdrop-filter: blur(7px);
+.key {
+    background-color: rgb(17, 15, 15);
+    color: white;
     padding: 10px;
-    border-radius: 20px;
-    width: 230px;
-    border-top: 1px solid rgb(255, 255, 255, 0.3);
-    border-right: 1px solid rgb(255, 255, 255, 0.3);
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 15px;
+    border-radius: 5px;
+    font-size: 13px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.notification-heading {
-    font-size: 11px;
-    font-weight: bold;
-    max-width: 500px;
+.key:active, .key-size-one:active, .key-size-two:active, .key-size-three:active, .key-size-four:active, .space:active, .left:active, .right:active, .up:active, .down:active {
+    transform: translateY(5px);
+    cursor: pointer;
 }
 
-.notification-p {
-    font-size: 10px;
-    max-width: 150px;
+.key:hover, .key-size-one:hover, .key-size-two:hover, .key-size-three:hover, .key-size-four:hover, .space:hover, .left:hover, .right:hover, .up:hover, .down:hover {
+    cursor: pointer;
 }
 
-.clear-all-div {
+.first-row {
     display: flex;
-    justify-content: flex-end;
-    width: 90%;
+    gap: 6px;
 }
 
-.clear-all {
-    font-size: 9px;
-    background-color: rgb(255, 255, 255, 0.15);
-    height: 20px;
-    width: 60px;
-    border-radius: 10px;
-    border-top: 1px solid rgb(255, 255, 255, 0.3);
-    border-right: 1px solid rgb(255, 255, 255, 0.3);
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);   
+.second-row {
+    display: flex;
+    gap: 6px;
+}
+
+.third-row {
+    display: flex;
+    gap: 6px;
+}
+
+.forth-row {
+    display: flex;
+    gap: 6px;
+}
+
+.fifth-row {
+    display: flex;
+    gap: 6px;
+}
+
+.sixth-row {
+    display: flex;
+    gap: 6px;
+}
+
+.key-size-one {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    padding: 10px;
+    width: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-size-two {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    padding: 10px;
+    width: 45px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-size-three {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    padding: 10px;
+    width: 35px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-size-four {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    padding: 10px;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    padding: 10px;
+    width: 158px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.enter-second {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    width: 20px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 13px;
+
+    position: fixed;
+    transform: translateY(-12px) translateX(563px);
+}
+
+.arrows {
+    display: flex;
+    gap: 6px;
+    margin: 20px 25px;
+}
+
+.left, .right, .up, .down {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    padding: 10px;
+    width: 15px;
+    height: 2px;
+    border-radius: 5px;
+    font-size: 13px;
+
+    position: fixed;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.noti-centre {
-    font-size: 17px;
-    width: 100%;
+.left {
+    transform: translateX(-25px) translateY(-2px);
 }
 
-.charger-1 {
-    background-color: white;
-    width: 40px;
-    height: 75px;
-    box-shadow: 0 0 5px black;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+.down {
+    transform: translateX(12px) translateY(-2px);
 }
 
-.charger-2 {
-    background-color: white;
-    width: 15px;
-    height: 100px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.up {
+    transform: translateX(12px) translateY(-25px);
 }
 
-.charger-whole {
-    display: flex;
-    flex-direction: column;
+.right{
+    transform: translateX(48px) translateY(-2px);
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.profile-text {
+    color: white;
+    font-size: 11px;
+}
+
+.profile-subtext {
+    color: grey;
+    font-size: 8px;
+}
+
+.login {
+    transform: translateY(-460px);
+
+    display: flex;  
     align-items: center;
+    flex-direction: column;
 }
-
