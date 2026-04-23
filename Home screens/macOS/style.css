@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    width: 720px;
+    width: 690px;
     height: 466px;
     border-radius: 25px;
     border-bottom-left-radius: 10px;
@@ -19,19 +19,20 @@ main {
     background-position: center;
     border: 5px solid #000000;
     box-shadow: 0 0 5px black;
+    transform: perspective(1000px) rotateX(10deg);
 
     display: flex;
     justify-content: center;
 }
 
 .keyboard {
-    height: 300px;
+    height: 320px;
     width: 730px;
     background: linear-gradient(180deg, #2c2c2e, #1c1c1e);
     border-radius: 10px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    transform: perspective(1000px) rotateX(25deg);
+    transform: perspective(1000px) rotateX(65deg);
     transform-origin: top;
     box-shadow:
         0 20px 40px rgba(0,0,0,0.6),
@@ -66,6 +67,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.key:active, .key-size-one:active, .key-size-two:active, .key-size-three:active, .key-size-four:active, .space:active, .left:active, .right:active, .up:active, .down:active {
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.key:hover, .key-size-one:hover, .key-size-two:hover, .key-size-three:hover, .key-size-four:hover, .space:hover, .left:hover, .right:hover, .up:hover, .down:hover {
+    cursor: pointer;
 }
 
 .first-row {
