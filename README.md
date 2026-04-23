@@ -10,4 +10,5 @@ This repo contains my web development practise projects
 - Linktree
 - AI (UI)
 - Clone websites
-- iOS  macOS Insporations
+- iO
+- S  macOS Insporations
