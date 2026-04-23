@@ -4,8 +4,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 1px;
+    gap: 8px;
     font-family: sans-serif;
+    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
 }
 
 main {
@@ -23,6 +24,27 @@ main {
 
     display: flex;
     justify-content: center;
+}
+
+.main-text {
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transform: translateY(40px);
+}
+
+.date {
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.time {
+    font-size: 70px;
+    transform: translateY(-60px);
+    color: rgb(255, 255, 255, 0.7);
 }
 
 .keyboard {
@@ -48,6 +70,7 @@ main {
     width: 80px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    transform: translateY(-795px);
 }
 
 .keys {
@@ -216,4 +239,26 @@ main {
 
 .right{
     transform: translateX(48px) translateY(-2px);
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.profile-text {
+    color: white;
+    font-size: 11px;
+}
+
+.profile-subtext {
+    color: grey;
+    font-size: 8px;
+}
+
+.login {
+    transform: translateY(-460px);
+
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
 }
