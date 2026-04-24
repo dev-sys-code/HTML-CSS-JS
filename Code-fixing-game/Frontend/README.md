@@ -4,7 +4,7 @@
 
 
 ## Updates:
-- Majour update SOON
+
 - V1.0.6: Buttons reactive
 - V1.0.5: Huge Redesign on colours
 - V1.0.4: Added a stats section, fixed general code
