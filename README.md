@@ -12,3 +12,7 @@ This repo contains my web development practise projects
 - Clone websites
 - iPhone
 - Macbook
+
+## Currently learning
+- Semantics
+- Grid (hopefully)
