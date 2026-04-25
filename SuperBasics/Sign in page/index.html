@@ -1,40 +1,32 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
     <head>
-        <title>Login Page</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <title>Login Page</title>
     </head>
     <body>
-        <main>
+        <form>
             <h1>Login</h1>
-            <form>
-                <div class="main-inputs-outputs">
-                    <label>
-                        Username
-                        <input type="text" class="input">
-                    </label>
-                    <label>
-                        Password
-                        <input type="password" class="input">
-                    </label>
-                    <span class="same-line-text">
-                        <label><input type="checkbox"><span><a class="#">Remember me</a></span></label>
-                        <span class="#"><a href="#">Forgot password</a></span>
-                    </span>
-                </div>
-                <span class="login-btn"><a href="#" class="login">Login</a></span>
-                <h3>or</h3>
-            </form>
-            <div class="external-logins">
-                    <a class="ex" href="#">
-                        <img src="https://www.shareicon.net/data/2016/07/10/119930_google_512x512.png" height="25">
-                        <span>Login with Google</span>
-                    </a>
-                    <a class="ex" href="#">
-                        <img src="https://purepng.com/public/uploads/large/purepng.com-microsoft-logo-iconlogobrand-logoiconslogos-251519939091wmudn.png" height="25">
-                        <span>Login with Microsoft</span>
-                    </a>
-                </div>
-        </main>
+            <section class="main-text-input-section">
+                <label for="username" class="main-label">
+                    Username
+                    <input class="typing-inputs" type="text">
+                </label>
+                <label class="main-label">
+                    Password
+                    <input class="typing-inputs" type="password">
+                </label>
+            </section>
+            <section class="secondary">
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </section>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
     </body>
 </html>
