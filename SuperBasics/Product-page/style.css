@@ -1,0 +1,25 @@
+.section {
+    background-color: rgb(128, 128, 128, 0.3);
+    border-radius: 10px;
+    height: 250px;
+    overflow-x: scroll;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image {
+    background-color: rgb(121, 121, 255);
+    width: 220px;
+    height: 160px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
