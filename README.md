@@ -2,7 +2,7 @@
 
 This repo contains my web development practise projects
 
-## Things i have done
+## Things I've done
 - Code Fixing Game → Long-term project hopefully
 - Sign in page + A better one
 - Sign up page + A better one
