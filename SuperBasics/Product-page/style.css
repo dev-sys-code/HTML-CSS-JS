@@ -1,17 +1,27 @@
+body {
+    background-color: snow;
+    font-family: sans-serif;
+}
+
 .section {
-    background-color: rgb(128, 128, 128, 0.3);
+    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
     border-radius: 10px;
     height: 250px;
     overflow-x: scroll;
+    box-shadow: 0 0 3px black;
 
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    overflow-x: scroll;
 }
 
+.section::-webkit-scrollbar { height: 15px; }
+.section::-webkit-scrollbar-track { background: transparent; margin: 10px; }
+.section::-webkit-scrollbar-thumb { background: #ffffff; border-radius: 10px;  border-bottom: 1px solid #5B7FFF }
+
 .image {
-    background-color: rgb(121, 121, 255);
-    width: 220px;
+    background-color: snow;
+    box-shadow: 0 0 2px black;
+    min-width: 220px;
     height: 160px;
     border-radius: 10px;
     margin: 10px;
@@ -20,6 +30,6 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
+    gap: 25px;
+} 
 
