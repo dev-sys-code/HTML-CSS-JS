@@ -11,8 +11,7 @@ This repo contains my web development practise projects
 - AI
 - Clone websites
 - iPhone
-- Macbook
-- 
+- Macbook 
 
 ## Currently learning
 - Semantics
