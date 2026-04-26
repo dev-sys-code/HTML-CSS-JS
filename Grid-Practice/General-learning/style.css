@@ -1,20 +1,35 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
     font-family: sans-serif;
     color: white;
 }
 
 .grid-section {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 250px); 
-    grid-template-rows: repeat(4, 250px);
+    margin: 15px;
+    grid-template-columns: 200px repeat(4, 1fr) ; 
+    grid-template-rows: 100px repeat(3, 200px) 100px;
     gap: 1em;
     grid-template-areas:
-        "header header header" 
-        "box-one box-one box-two"
-        "box-three box-four box-four"
-        "footer footer footer";
+        "sidebar header header header header" 
+        "sidebar main main main main"
+        "sidebar main  main main main"
+        "sidebar description description description description"
+        "sidebar footer footer footer footer";
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(173, 135, 235);
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: rgb(135, 163, 235);
 }
 
 .header {
@@ -27,28 +42,13 @@ body {
     background-color: rgb(135, 235, 202);
 }
 
-.box-one {
-    grid-area: box-one;
-    background-color: rgb(135, 206, 235);
-}
-
-.box-two {
-    grid-area: box-two;
-    background-color: rgb(152, 235, 135);
-}
-
-.box-three {
-    grid-area: box-three;
+.description {
+    grid-area: description;
     background-color: rgb(235, 135, 135);
 }
 
-.box-four {
-    grid-area: box-four;
-    background-color: rgb(208, 135, 235);
-}
-
 .grid-boxes {
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: 0 0 5px black;
     font-weight: bold;
     font-size: 25px;
