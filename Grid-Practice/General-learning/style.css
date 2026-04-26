@@ -1,55 +1,82 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
     height: 100vh;
     font-family: sans-serif;
-    color: white;
+    background-color: rgb(234, 234, 234);
+    color: rgb(0, 0, 0);
+    margin: 50px;
 }
 
 .grid-section {
     width: 100%;
-    display: grid;
-    margin: 15px;
-    grid-template-columns: 200px repeat(4, 1fr) ; 
-    grid-template-rows: 100px repeat(3, 200px) 100px;
-    gap: 1em;
-    grid-template-areas:
-        "sidebar header header header header" 
-        "sidebar main main main main"
-        "sidebar main  main main main"
-        "sidebar description description description description"
-        "sidebar footer footer footer footer";
-}
+    max-width: 1200px;
+    min-width: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.35);
+    padding: 25px;
+    border-radius: 5px;
 
-main {
-    grid-area: main;
-    background-color: rgb(173, 135, 235);
+    display: grid;
+    grid-template-columns: 200px repeat(3, 1fr);
+    grid-template-rows: 100px 350px 350px;
+    gap: 2em;
+    grid-template-areas: 
+        "sidebar  box-one        box-two       box-three"
+        "sidebar  big-box-one    big-box-one   big-box-two" 
+        "sidebar  big-box-three  big-box-four  big-box-four";
+}
+.dash {
+    width: 100%;
 }
 
 aside {
     grid-area: sidebar;
-    background-color: rgb(135, 163, 235);
+    background: linear-gradient(to bottom, #8e2de2, #4A00E0);
+    color: white;
 }
 
-.header {
-    grid-area: header;
-    background-color: rgb(235, 230, 135);
+.box-one {
+    grid-area: box-one;
+    background: linear-gradient(to bottom left, #57a8cd, #87ceeb );
+    color: white;
 }
 
-.footer {
-    grid-area: footer;
-    background-color: rgb(135, 235, 202);
+.box-two {
+    grid-area: box-two;
+    background: linear-gradient(to bottom left, #ff8f8f, #f15656 );
+    color: white;
 }
 
-.description {
-    grid-area: description;
-    background-color: rgb(235, 135, 135);
+.box-three {
+    grid-area: box-three;
+    background: linear-gradient(to bottom left, #ffbe8f, #ea9028 );
+    color: white;
 }
+
+.big-box-one {
+    grid-area: big-box-one;
+}
+
+.big-box-two {
+    grid-area: big-box-two;
+}
+
+.big-box-three  {
+    grid-area: big-box-three;
+}
+
+.big-box-four {
+    grid-area: big-box-four;
+}
+
 
 .grid-boxes {
     border-radius: 10px;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.35);
     font-weight: bold;
     font-size: 25px;
 
