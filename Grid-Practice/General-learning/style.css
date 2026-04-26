@@ -7,12 +7,24 @@ body {
 
 .grid-section {
     display: grid;
-    grid-template-rows: 250px 250px 250px;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: repeat(3, 250px); 
+    grid-template-rows: repeat(4, 250px);
     gap: 1em;
-    grid-template-areas: 
+    grid-template-areas:
+        "header header header" 
         "box-one box-one box-two"
-        "box-three box-four box-four";
+        "box-three box-four box-four"
+        "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(235, 230, 135);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(135, 235, 202);
 }
 
 .box-one {
@@ -36,7 +48,6 @@ body {
 }
 
 .grid-boxes {
-    padding: 10px;
     border-radius: 25px;
     box-shadow: 0 0 5px black;
     font-weight: bold;
