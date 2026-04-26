@@ -1,10 +1,10 @@
 body {
-    background-color: snow;
+    background-color: rgb(230, 230, 230);
     font-family: sans-serif;
 }
 
 .section {
-    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     height: 250px;
     overflow-x: scroll;
@@ -16,10 +16,10 @@ body {
 
 .section::-webkit-scrollbar { height: 15px; }
 .section::-webkit-scrollbar-track { background: transparent; margin: 10px; }
-.section::-webkit-scrollbar-thumb { background: #ffffff; border-radius: 10px;  border-bottom: 1px solid #5B7FFF }
-
+.section::-webkit-scrollbar-thumb { background: rgb(230, 230, 230); border-radius: 10px;  border-bottom: 1px solid rgb(230, 230, 230);}
+.section::-webkit-scrollbar-thumb { cursor: pointer;}
 .image {
-    background-color: snow;
+    background-color: rgb(230, 230, 230);;
     box-shadow: 0 0 2px black;
     min-width: 220px;
     height: 160px;
@@ -32,4 +32,16 @@ main {
     flex-direction: column;
     gap: 25px;
 } 
+
+.section-one {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.section-one-div {
+    width: 100%;
+    text-align: right;
+}
 
