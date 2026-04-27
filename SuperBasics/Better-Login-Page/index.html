@@ -1,49 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <title>Login page</title>
     </head>
     <body>
         <form>
-            <div class="settings">
-                <img class="icon" src="https://www.freeiconspng.com/uploads/settings-icon-16.png" height="25">
-            </div>
             <h1>Login</h1>
-            <div class="inputs">
-                <label class="user-pass">
+            <section class="inputs">
+                <label class="label">
                     Username
-                    <input class="user-in" type="text">
+                    <input class="input" type="text">
                 </label>
-                <label class="user-pass">
+
+                <label class="label">
                     Password
-                    <input class="user-in" type="password">
+                    <input class="input" type="password">
                 </label>
-                <div class="other-inputs">
-                    <label class="checkbox-div">
-                        <input type="checkbox">
-                        Remember me
-                    </label>
-                    <a class="fp" href="#">Forgot password?</a>
-                </div>
-            </div>
-            <button class="login-btn">Login</button>
-            <h3>Or</h3>
-            <div class="external-logins">
-                <button class="external">
-                    <img src="https://th.bing.com/th/id/R.0dd54f853a1bffb0e9979f8146268af3?rik=qTQlRtQRV5AliQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fgoogle-logo-png-google-logo-icon-png-transparent-background-1000.png&ehk=VlcCHZ7jyV%2fCI7dZfbUl8Qb9%2f7uibkF6I6MBoqTtpRU%3d&risl=&pid=ImgRaw&r=0" height="25">
-                    Sign in with Google
-                </button>
-                <button class="external">
-                    <img src="https://i.pinimg.com/originals/75/d5/52/75d552f374cb3a61d23c05921e49840b.png" height="25">
-                    Sign in with Microsoft
-                </button>
-                <button class="external">
-                    <img src="https://pngimg.com/uploads/github/github_PNG40.png" height="25">
-                    Sign in with GitHub
-                </button>
-            </div>
+            </section>
+
+            <section class="secondary">
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
+                <a href="#"><strong>Forgot password?</strong></a>
+            </section>
+
+            <section class="third">
+                <button type="submit" class="login-btn">Login</button>
+                <a href="#">Forgot password? <strong>Register</strong></a>
+            </section>
         </form>
     </body>
 </html>
