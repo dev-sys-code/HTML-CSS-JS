@@ -7,5 +7,6 @@ This repo contains my web development practise projects
 - Grid
 
 ## My current mini-project
-<img src="https://github.com/user-attachments/assets/9ee841f8-e72c-4272-89de-e63cacdce73d" height="350" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/e9a2f4b5-4ee3-4442-b461-c1448bf08e1a" />
+
 
