@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Login</title>
+    </head>
+    <body>
+        <form>
+            <h1 class="welcome-back-message">Welcome back!</h1>
+            <p class="descr-under-wb-msg">Enter credentials to access dashboard</p>
+            <section class="text-inputs">
+                <!-- seperate divs for readability -->
+                <div class="singular-input">
+                    <input id="username" type="text" placeholder="Username">
+                </div>
+                
+                <div class="singular-input">
+                    <input id="password" type="password" placeholder="Password">
+                </div>
+            </section>
+
+            <section class="text-secondary">
+                <input id="checkbox" type="checkbox">
+                <label for="checkbox">Remember me</label>
+            </section>
+            
+            <button class="login-btn" type="submit">Sign in</button>
+
+            <section class="third-texts">
+                <a href="#">Forgot password</a>
+                <span>|</span>
+                <a href="#">Create account</a>
+            </section>
+        </form>
+    </body>
+</html>
