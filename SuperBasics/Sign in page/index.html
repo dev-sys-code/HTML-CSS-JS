@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <title>Login Page</title>
+        <title>Login page</title>
     </head>
     <body>
+        <aside>
+            <section>
+                <a href="#"><strong>Home</strong></a>
+            </section>
+        </aside>
         <form>
             <h1>Login</h1>
-            <section class="main-text-input-section">
-                <label for="username" class="main-label">
+            <section class="inputs">
+                <label class="label">
                     Username
-                    <input class="typing-inputs" type="text">
+                    <input class="input" type="text">
                 </label>
-                <label class="main-label">
+
+                <label class="label">
                     Password
-                    <input class="typing-inputs" type="password">
+                    <input class="input" type="password">
                 </label>
             </section>
+
             <section class="secondary">
                 <label>
                     <input type="checkbox">
                     Remember me
                 </label>
-                <a href="#">Forgot password?</a>
+                <a href="#"><strong>Forgot password?</strong></a>
             </section>
-            <button type="submit" class="login-btn">Login</button>
+
+            <section class="third">
+                <button type="submit" class="login-btn">Login</button>
+                <a href="#">Forgot password? <strong>Register</strong></a>
+            </section>
         </form>
     </body>
 </html>
