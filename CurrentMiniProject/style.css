@@ -3,16 +3,19 @@
 }
 
 :root {
-    --body-colour: #6366f1;
-    --form-colour: rgba(255, 255, 255, 0.05);
+    --body-colour: linear-gradient(rgb(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255, 255, 255, 0.04) 1px, transparent 1px);
+    --form-colour: rgb(27, 27, 27);
     --universal-border-radius: 10px;
-    --glass-box-shadow: 1px -1px 1px rgb(255, 255, 255, 0.35), -1px 1px 5px rgb(0, 0, 0, 0.35);
+    --glass-box-shadow:  -1px 2px 5px rgb(0, 0, 0, 0.35);
 }
 
 body {
-    background-color: var(--body-colour);
+    background-color: var(--form-colour);
+    background-image: var(--body-colour);
     color: white;
     font-family: Helvetica;
+    background-size: 40px 40px;
 
     display: flex;
     justify-content: center;
