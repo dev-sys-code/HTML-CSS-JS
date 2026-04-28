@@ -3,21 +3,21 @@
 }
 
 :root {
-    --body-colour: rgb(235, 235, 235);
-    --form-colour: linear-gradient(to bottom right, rgb(134, 134, 134), rgb(49, 49, 49));
+    --body-colour: rgb(26, 26, 26);
+    --form-colour: rgb(35, 35, 35);
     --gap: 10px;
     --padding: 10px;
     --border-radius: 10px;
     --border: 1px dashed white;
     --main-width: 75%;
     --text-colour: white;
-    --hover-colour: rgb(255, 255, 255, 0.1)
+    --hover-colour: rgb(255, 255, 255, 0.1);
 }
 
 body {
     background: var(--body-colour);
-    background-image: linear-gradient(rgb(0, 0, 0, 0.15) 1px, transparent 1px),
-        linear-gradient(90deg, rgb(0, 0, 0, 0.15) 1px, transparent 1px);
+    background-image: linear-gradient(rgb(255, 255, 255, 0.15) 1px, transparent 1px),
+        linear-gradient(90deg, rgb(255, 255, 255, 0.15) 1px, transparent 1px);
     background-size: 40px 40px;
     color: var(--text-colour);
     font-family: system-ui;
@@ -30,34 +30,26 @@ body {
 }
 
 form {
-    background: var(--form-colour);
+    background-color: var(--form-colour);
     padding: var(--padding);
     border: var(--border);
     border-radius: var(--border-radius);
-    width: 90%;
-    max-width: 400px;
-
+    width: 100%;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: var(--gap);
-
-    animation: slideIn 1s ease;
-}
-
-@keyframes slideIn {
-    from { transform: translateY(-10vh);}
-    to { transform: translateX(0);}
 }
 
 .inputs {
-    display: flex;
-    flex-direction: column;
     gap: var(--gap);
     width: 100%;
+    max-width: 500px;
 
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .text-input {
@@ -91,6 +83,8 @@ form {
     background-color: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
+    width: 100%;
+    max-width: 500px;
 }
 
 .login-btn:hover {
@@ -101,10 +95,18 @@ form {
     transform: scale(0.99);
 }
 
+.login-div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
 .secondary {
     margin: 15px;
+    width: 80%;
 
     display: flex;
+    justify-content: center;
     gap: var(--gap);
 }
 
@@ -115,4 +117,51 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.or {
+    font-size: 15px;
+}
+
+.external-logins {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    margin: 15px;
+}
+
+.external {
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    width: 215px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.external:hover {
+    background-color: var(--hover-colour);
+}
+
+@media (max-width: 1200px) {
+    form {
+        width: 750px;
+    }
+}
+
+@media (max-width: 900px) {
+    form {
+        width: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 400px;
+    }
 }
