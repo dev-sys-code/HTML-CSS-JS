@@ -8,6 +8,7 @@ This repo contains my web development practise projects
 - Root
 
 ## Last mini-project
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/e9a2f4b5-4ee3-4442-b461-c1448bf08e1a" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/11208707-01b8-433e-8f36-7c670a84417b" />
+
 
 
