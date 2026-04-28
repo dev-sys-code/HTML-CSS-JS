@@ -21,6 +21,7 @@ body {
     background-size: 40px 40px;
     color: var(--text-colour);
     font-family: system-ui;
+    overflow: hidden;
 
     display: flex;
     justify-content: center;
@@ -35,12 +36,18 @@ form {
     border-radius: var(--border-radius);
     width: 90%;
     max-width: 400px;
-    min-width: 375px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: var(--gap);
+
+    animation: slideIn 1s ease;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-10vh);}
+    to { transform: translateX(0);}
 }
 
 .inputs {
@@ -61,13 +68,14 @@ form {
     width: var(--main-width);
     color: var(--text-colour);
     transition: all 0.3s ease;
+    outline: none;
 }
 
 .text-input::placeholder {
     color: var(--text-colour);
 }
 
-.text-input:hover {
+.text-input:hover, .text-input:focus {
     background-color: var(--hover-colour) ;
 }
 
