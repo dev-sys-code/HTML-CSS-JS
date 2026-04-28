@@ -3,7 +3,6 @@
 This repo contains my web development practise projects
 
 ## Currently learning
-- Semantics
 - Grid
 - Media
 
