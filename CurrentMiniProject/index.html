@@ -4,31 +4,27 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
-        <title>Login</title>
+        <title>Sign in</title>
     </head>
     <body>
         <form>
-            <h1 class="welcome-back-message">Welcome back!</h1>
-            <p class="descr-under-wb-msg">Enter credentials to access dashboard</p>
-            <section class="text-inputs">
-                <!-- seperate divs for readability -->
-                <div class="singular-input">
-                    <input id="username" type="text" placeholder="Username">
-                </div>
-                
-                <div class="singular-input">
-                    <input id="password" type="password" placeholder="Password">
-                </div>
+            <div>
+                <h1>Welcome back</h1>
+                <p>Sign in with your credentials to access dashboard</p>
+            </div>
+
+            <section class="inputs">
+                <input class="text-input" type="text" placeholder="Username">
+                <input class="text-input" type="password" placeholder="Password">
             </section>
 
-            <section class="text-secondary">
-                <input id="checkbox" type="checkbox">
-                <label for="checkbox">Remember me</label>
-            </section>
-            
-            <button class="login-btn" type="submit">Sign in</button>
+            <div class="remember-me">
+                <input type="checkbox">Remember me
+            </div>
 
-            <section class="third-texts">
+            <button class="login-btn">Login</button>
+
+            <section class="secondary">
                 <a href="#">Forgot password</a>
                 <span>|</span>
                 <a href="#">Create account</a>
