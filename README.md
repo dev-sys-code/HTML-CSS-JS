@@ -7,7 +7,6 @@ This repo contains my web development practise projects
 - Media
 
 ## Last mini-project
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/11208707-01b8-433e-8f36-7c670a84417b" />
-
+<img height="350" alt="image" src="https://github.com/user-attachments/assets/9237db2f-b6e3-4abf-a7e2-c070ef02e826" />
 
 
