@@ -1,5 +1,5 @@
 ## > 1200px 
-<img height="350" alt="image" src="https://github.com/user-attachments/assets/346ff8a5-f80f-4916-b339-fd2bde2eb402" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/0b4e7265-0c46-480b-a145-408b1743a611" />
 
 ## > 900px and < 1200px
 <img height="350" alt="image" src="https://github.com/user-attachments/assets/9237db2f-b6e3-4abf-a7e2-c070ef02e826" />
