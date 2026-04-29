@@ -34,7 +34,7 @@ form {
     padding: var(--padding);
     border: var(--border);
     border-radius: var(--border-radius);
-    width: 100%;
+    width: 900px;
     min-width: 400px;
     display: flex;
     flex-direction: column;
