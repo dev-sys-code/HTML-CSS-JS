@@ -9,7 +9,6 @@ Web development practice projects
 ## Learning soon
 
 - Clamp
-- There is too much
   
 ## Last mini-project
 - Uses media to change dependant on screen width
