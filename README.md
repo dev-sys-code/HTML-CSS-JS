@@ -1,6 +1,6 @@
 # HTML / CSS / JS Projects
 
-Web development practise projects
+Web development practice projects
 
 ## Currently learning
 - Grid
