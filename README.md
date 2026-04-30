@@ -1,6 +1,6 @@
 # HTML / CSS / JS Projects
 
-This repo contains my web development practise projects
+Web development practise projects
 
 ## Currently learning
 - Grid
