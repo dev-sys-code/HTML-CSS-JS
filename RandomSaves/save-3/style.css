@@ -47,8 +47,8 @@ form {
 }
 
 @keyframes slideIn {
-    from { transform: translateY(-25dvh); }
-    to { transform: translateY(0); }
+    from { transform: translateY(-25dvh);}
+    to { transform: translateY(0);}
 }
 
 .inputs {
