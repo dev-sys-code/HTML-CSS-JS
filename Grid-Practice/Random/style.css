@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --border-radius: 10px;
+    --padding: 10px;
+    --gap: 1.5em;
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: system-ui;
+    font-weight: bolder;
+    background-color: honeydew;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+section {
+    display: grid;
+
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 200px);
+    gap: var(--gap);
+    grid-template-areas: 
+        "box-1 box-2"
+        "box-3 box-3";
+}
+
+.box-1 {
+    grid-area: box-1;
+    background-color: skyblue;
+}
+
+.box-2 {
+    grid-area: box-2;
+    background-color: rgb(135, 235, 175);
+}
+
+.box-3 {
+    grid-area: box-3;
+    background-color: rgb(235, 135, 135);
+}
+
+.box {
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    color: white;
+    transition: var(--transition);
+    box-shadow: 1px 1px 5px black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.box:hover {
+    scale: 1.05;
+    box-shadow: 2px 2px 7px black;
+}
+
+button {
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    border: 1px dashed black;
+    width: 85%;
+    background-color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button:active {
+    scale: 0.95;
+}
