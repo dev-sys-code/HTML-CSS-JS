@@ -5,10 +5,11 @@ Web development practice projects
 ## Currently learning
 - Grid
 - Media
+- Clamp
 
 ## Learning soon
 
-- Clamp
+- 
   
 ## Last mini-project
 - Uses media to change dependant on screen width
