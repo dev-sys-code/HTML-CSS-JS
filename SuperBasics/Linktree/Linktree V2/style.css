@@ -35,6 +35,7 @@ main {
     box-shadow: var(--box-shadow);
     width: 85%;
     max-width: 600px;
+    min-width: 510px;
 
     display: flex;
     flex-direction: column;
@@ -70,7 +71,7 @@ a {
 }
 
 .link {
-    width: 30%;
+    width: 50%;
     background-color: rgb(26, 26, 26);
     padding: var(--padding);
     border-radius: var(--border-radius);
