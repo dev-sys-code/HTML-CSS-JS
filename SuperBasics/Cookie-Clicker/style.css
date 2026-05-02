@@ -3,10 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
-    background: linear-gradient(to bottom right, #FDC639, #FF7C60);
     font-family: sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 main {
@@ -16,8 +14,9 @@ main {
     align-items: center;
 
     background-color: rgb(255, 255, 255, 0.35);
-    height: 50%;
-    width: 35%;
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -27,18 +26,17 @@ h1 {
 
 button {
     padding: 15px;
-    background-color: red;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-top: none;
-    border-left: none;
+    background-color: rgb(202, 45, 45);
+    box-shadow: 2px 2px 5px black;
     border-radius: 10px;
+    border: none;
     width: 150px;
     transition: all 0.3s ease;
+    color: white;
 }
 
 button:hover {
-    opacity: 0.5;
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -53,7 +51,7 @@ button:active {
 }
 
 #cookie:hover {
-    opacity: 0.5;
+    opacity: 0.8;
     cursor: pointer;
 }
 
