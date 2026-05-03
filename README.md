@@ -5,4 +5,3 @@ Web development practice projects
 ## Currently learning
 - Grid
 - Responsive layouts
-- Clamp
