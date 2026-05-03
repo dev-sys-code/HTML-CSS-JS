@@ -6,6 +6,3 @@ Web development practice projects
 - Grid
 - Responsive layouts
 - Clamp
-
-## Learning soon
-  
