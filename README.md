@@ -8,8 +8,6 @@ Web development practice projects
 - Clamp
 
 ## Learning soon
-
-- 
   
 ## Last mini-project
 - Uses media to change dependant on screen width
