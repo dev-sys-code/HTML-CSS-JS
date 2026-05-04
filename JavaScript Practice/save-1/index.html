@@ -2,12 +2,27 @@
 
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <title>Background</title>
+        <meta charset="UTF-8">
+        <title>Background Changer</title>
     </head>
     <body>
-        <button id="changeColourButton" onclick="background()">Click me</button>
+        <main>
+            <div class="box box-1">
+                Midnight
+                <button onclick="black()" id="btn-1">Click me</button>
+            </div>
+
+            <div class="box box-2">
+                Light
+                <button onclick="light()" id="btn-2">Click me</button>
+            </div>
+
+            <div class="box box-3">
+                Blue
+                <button onclick="blue()" id="btn-3">Click me</button>
+            </div>
+        </main>
+        <script src="script.js"></script>
     </body>
-    <script src="script.js"></script>
 </html>
