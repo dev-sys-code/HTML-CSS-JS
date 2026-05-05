@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --padding: 15px;
     --border-radius: 10px;
