@@ -67,7 +67,7 @@ form {
     gap: var(--gap);
 }
 
-.or { font-size: 20px; }
+.or { font-size: 20px; margin: var(--margin); }
 
 button {
     padding: var(--padding);
