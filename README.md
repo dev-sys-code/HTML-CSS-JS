@@ -1,4 +1,3 @@
 # HTML / CSS / JS Projects
 
 Web development practice projects
-
