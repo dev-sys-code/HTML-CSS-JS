@@ -2,4 +2,3 @@
 
 Web development practice projects
 
-## Currently learning
