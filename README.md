@@ -4,6 +4,3 @@ Web development practice projects
 
 ## Currently learning
 - Grid
-- JS
-
-
